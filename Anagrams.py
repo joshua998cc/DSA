@@ -1,5 +1,7 @@
 #comparing anagrams which are two strings with the same characters. return true if they are the same false if otherwise.
-
+# going to loop through collecting both list of strings using the get function that way we can just loop once through.
+#the compare the two using the get function for t and if they are equal return True. Otherwise False can compare the length of both at
+#the beginning to automatically disqualify if not the same length.
 class Solution:
     def isAnagram(self, s: str, t: str):
         if len(s) != len(t):
