@@ -1,5 +1,5 @@
 #given an array of intergers return the True if one apprears at least twice. False if otherwise
-
+#to loop through the array once use the set to collect each item. if the item is already in the set simply return true. if not add the number and move on the the next in the array. Once we get to the end of the array and there are no duplicates. return False
 class Solution:
     def containsDuplicate(self, nums):
         group = set()
