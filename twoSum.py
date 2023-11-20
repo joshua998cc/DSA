@@ -1,6 +1,6 @@
 #two sum return the indicis of the two numbers that add up to the target.
 #optimal way is to loop through the array once subtracting each element from the target and putting it in hashmap using the enumerate method. 
-#if two target are in the hashmap we will be returning the two indexes. 
+#if two target are in the hashmap we will be returning the two indexes. d
 class Solution:
     def twoSum(self, nums, target):
         group = {} # value, index
